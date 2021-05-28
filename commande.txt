@@ -1,0 +1,3 @@
+Voici la commande a exécuter sous windows pour appeler le script python à intervalle de temps régulier:
+
+schtasks /create /sc minute /mo 20 /tn "textepeuimporte" /tr votrecheminwindows_intervalleregulier.bat
